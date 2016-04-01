@@ -133,7 +133,7 @@ Make sure that the checkbox next to the file name is checked. Then  we will crea
 
 ![First commit](../img/12_first_commit.png)
 
-The next step is to push our new file up to GitHub by clicking the __Sync__ button in the top left corner.
+The next step is to push our new file up to GitHub by clicking the __Sync__ button in the top right corner.
 
 ![Sync repo](../img/13_sync_repo.png)
 
