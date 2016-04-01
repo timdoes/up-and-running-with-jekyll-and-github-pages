@@ -1,0 +1,46 @@
+header {
+  margin-bottom: 20px;
+}
+.avatar {
+  border: 0;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: inline-block;
+  height:42px;
+  margin-right:20px;
+  vertical-align: middle;
+  width:42px;
+}
+.button-group {
+  display: inline-flex;
+  margin-bottom: 0;
+}
+.callout {
+  overflow: hidden;
+}
+.current-user {
+  margin-right: 2px;
+  height: 39px;
+  width: 39px;
+}
+.sticky {
+  width: 100%;
+}
+
+@media only screen and (max-width: 640px) {
+  .top-bar-left {
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    display: flex;
+    justify-content: center;
+  }
+  .top-bar-right {
+    margin-top: 20px;
+    -webkit-align-items: baseline;
+    align-items: baseline;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    display: flex;
+    justify-content: center;
+  }
+}

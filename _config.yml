@@ -1,0 +1,3 @@
+baseurl: /up-and-running-with-jekyll-and-github-pages
+exclude: ['README.md']
+permalink: pretty

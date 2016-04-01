@@ -1,0 +1,17 @@
+<nav data-sticky-container>
+  <div class="top-bar sticky" data-sticky data-options="anchor: body; marginTop: 0; stickyOn: small;">
+    <div class="top-bar-left">
+      <ul class="menu">
+        <li class="menu-text">GitHub Manager</li>
+        <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{site.baseurl}}/">Dashboard</a></li>
+        <li class="{% if page.url == '/news/' %}active{% endif %}"><a href="{{site.baseurl}}/news/">News</a></li>
+      </ul>
+    </div>
+    <div class="top-bar-right">
+    <ul class="menu right-menu">
+      <li><input id="user" type="text" placeholder="GitHub Username" onkeydown="enter(this)"></li>
+      <li><button id="go" type="button" class="button" onclick="login()">Go</button></li>
+    </ul>
+  </div>
+  </div>
+</nav>
