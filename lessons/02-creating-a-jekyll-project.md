@@ -60,8 +60,10 @@ This has started our server, created our  `_site` folder with our build files, a
 Now for fun (and to see edits in action), let's edit our `index.html` file to add some subtext. Let's put a paragraph tag under our `<h1>` so it looks like:
 
 ```html
+...
 <h1>My Jekyll Website</h1>
 <p>This is going to be an amazing website soon.</p>
+...
 ```
 
 Save it then go back to the browser and refresh the page. Now we will see:
@@ -166,7 +168,7 @@ layout: default
 <p>This is going to be an amazing website soon.</p>
 ```
 
-Now if we go back to our browser and refresh the page, we will see that nothing has changed. It has properly included our `index.html` content into our default layout.
+Now if we go back to our browser and refresh the page, we will see that nothing has changed. It has properly included our `/index.html` content into our default layout.
 
 We can even verify this by checking the page source. Right-click in the browser and select __View Page Source__. Here we can see that all of our content has been inserted into the `<body>` of our page.
 

@@ -276,4 +276,8 @@ And there we have it. Our Jekyll project is starting to look like a real website
 
 Next we will be creating our `News` blog pages where we can really dive into Jekyll's features and functionality.
 
-Lesson 7: Introducing `_posts` - Creating Blog Posts (comming soon...)
+1. Save
+2. Commit
+3. Sync
+
+Lesson 7: Introducing `_posts` - Creating Blog Posts (coming soon...)

@@ -4,7 +4,7 @@ I'm not sure if you've noticed but so far our page locations look a bit ugly wit
 
 There is a quick and easy fix for this. If we open up our `/_config.yml` file and add a third line, `permalink: pretty`, Jekyll will remove the file extensions from the pages.
 
-Whenever we edit our `_config.yml` we will need to restart the Jekyll server. Go to *Terminal* and hit `ctrl-c` to stop the server. Then type `jekyll serve --watch --baseurl ""` to start the server again.
+Whenever we edit our `/_config.yml` we will need to restart the Jekyll server. Go to *Terminal* and hit `ctrl-c` to stop the server. Then type `jekyll serve --watch --baseurl ""` to start the server again.
 
 We will also need to update our navigation.
 

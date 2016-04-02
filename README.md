@@ -17,4 +17,4 @@ Think of [Git](https://git-scm.com) as a way to version control your files, and 
 - [Lesson 4: Permalinks](lessons/04-permalinks.md)
 - [Lesson 5: Showing the Active Page in our Nav](lessons/05-showing-active-page-in-nav.md)
 - [Lesson 6: Adding Content From GitHub's API](lessons/06-adding-content-from-githubs-api.md)
-- Lesson 7: Introducing `_posts` - Creating Blog Posts (comming soon...)
+- Lesson 7: Introducing `_posts` - Creating Blog Posts (coming soon...)

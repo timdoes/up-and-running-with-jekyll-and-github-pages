@@ -57,7 +57,7 @@ If we went ahead and saved our changes, committed them, and push to GitHub, we'd
 
 This is where the baseurl that we created in Lesson 2-1 comes into play.
 
-*_config.yml*
+*/_config.yml*
 ```yml
 baseurl: /jekyll-github-pages-tutorial
 ```
@@ -79,7 +79,7 @@ Let's integrate this into our navigation now. To do this, we will use the variab
 ...
 ```
 
-> Don't forget to add the trailing slash after the baseurl variable.
+> Don't forget to add the trailing slash after the `{{site.baseurl}}` variable.
 
 We'll also take this opportunity to update our homepage `index.html`. This page will have 3 sections.
 
