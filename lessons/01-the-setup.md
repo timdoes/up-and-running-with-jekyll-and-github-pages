@@ -123,13 +123,13 @@ Let's right click in the left tree view area and select `New File`. Name the fil
 
 Once that is saved, we can pop back over to our GitHub Desktop app to see we have 1 Uncommitted Change.
 
-![1 Uncommited Change](../img/10_uncommitted_change.png)
+![1 Uncommitted Change](../img/10_uncommitted_change.png)
 
 Let's go ahead and click __1 Uncommitted Change__. Now we should see our new __index.html__ file ready to be committed and pushed to our hosting (GitGub).
 
 ![Staged index.html file](../img/11_staged_index_file.png)
 
-Make sure that the checkbox next to the file name is checked. Then  we will create a title for our commit by typing `Test HTML file` (or whatever you want to call it) in the input box labelled Summary. Then click __Commit to gh-pages__.
+Make sure that the checkbox next to the file name is checked. Then we will create a title for our commit by typing `Test HTML file` (or whatever you want to call it) in the input box labelled Summary. Then click __Commit to gh-pages__.
 
 ![First commit](../img/12_first_commit.png)
 
